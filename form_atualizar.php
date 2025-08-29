@@ -20,13 +20,7 @@
         <form action="#" method="POST">
             <div class="mb-3">                
                nome:
-                <input value=
-                "
-                <?php
-                    echo $produto["nome"]
-                ?>
-                "
-                type="text" name="nome" class="form-control"  >              
+                <input value="<?php echo $produto["nome"]; ?>" type="text" name="nome" class="form-control"  >              
             </div>
 
             
